@@ -1,0 +1,7 @@
+(module "CLICKMATE_V6_2MM" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start 8.00100 6.90000) (end 8.00100 0.00000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start 5.76580 6.90000) (end 8.00100 6.90000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -8.00000 6.90000) (end -5.75000 6.90000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -8.00000 6.90000) (end -8.00000 0.00000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -8.00000 0.00000) (end 8.00100 0.00000) (layer F.SilkS) (width 0.3048))
+)

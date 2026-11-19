@@ -1,0 +1,6 @@
+(module "KYOCERA-KNH16-DA" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start -0.80000 0.40000) (end 0.81280 0.40000) (layer F.SilkS) (width 0.127))
+  (fp_line (start 0.81280 0.40000) (end 0.81280 -0.40640) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.80000 -0.40640) (end 0.81280 -0.40640) (layer F.SilkS) (width 0.127))
+  (fp_line (start -0.80000 0.40000) (end -0.80000 -0.40640) (layer F.SilkS) (width 0.127))
+)

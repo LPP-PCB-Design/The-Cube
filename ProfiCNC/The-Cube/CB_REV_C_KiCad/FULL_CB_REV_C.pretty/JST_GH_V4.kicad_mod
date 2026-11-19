@@ -1,0 +1,7 @@
+(module "JST_GH_V4" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start 4.19100 5.45000) (end 4.19100 0.00000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start 2.56540 5.45000) (end 4.19100 5.45000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -4.17500 5.45000) (end -2.56000 5.45000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -4.17500 5.45000) (end -4.17500 0.00000) (layer F.SilkS) (width 0.3048))
+  (fp_line (start -4.17500 0.00000) (end 4.19100 0.00000) (layer F.SilkS) (width 0.3048))
+)

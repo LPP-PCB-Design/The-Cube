@@ -1,0 +1,8 @@
+(module "DRL" (layer F.Cu) (tedit 5B0D3C36)
+  (arc (start 0.55000 -0.25000) (end 0.80000 -0.25000) (mid 0.67500 -0.12500) (layer F.SilkS) (width 0.1) )
+  (fp_line (start 0.96000 1.25000) (end 0.96000 -0.25000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.39000 1.25000) (end 0.96000 1.25000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.39000 1.25000) (end 0.39000 -0.25000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.39000 -0.25000) (end 0.80000 -0.25000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 0.55000 -0.25000) (end 0.96000 -0.25000) (layer F.SilkS) (width 0.1))
+)

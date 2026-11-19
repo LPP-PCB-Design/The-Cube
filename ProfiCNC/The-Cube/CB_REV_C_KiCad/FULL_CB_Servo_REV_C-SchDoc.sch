@@ -1,0 +1,301 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "FULL_CB_Servo_REV_C-SchDoc"
+Date "14 03 2025"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8560 10700 0    60   ~ 0
+*
+Text Notes 9250 10300 0    60   ~ 0
+*
+Text Notes 9250 10400 0    60   ~ 0
+*
+Text Notes 9250 10500 0    60   ~ 0
+*
+Text Notes 9250 10600 0    60   ~ 0
+*
+Text Notes 9250 10700 0    60   ~ 0
+*
+Text Notes 8820 10700 0    60   ~ 0
+*
+Text Notes 6980 10360 0    90   ~ 12
+*
+Text Notes 7770 10560 0    72   ~ 0
+*
+Text Notes 8690 10560 0    72   ~ 0
+*
+Text Notes 7000 10700 0    60   ~ 0
+*
+Text Notes 7850 10700 0    60   ~ 0
+*
+Text Notes 7000 10800 0    60   ~ 0
+*
+Wire Notes Line
+	6700 10200 10300 10200
+Wire Notes Line
+	6700 10800 6700 10200
+Wire Notes Line
+	9200 10400 6700 10400
+Wire Notes Line
+	7400 10600 7400 10400
+Wire Notes Line
+	6700 10700 10300 10700
+Wire Notes Line
+	8300 10700 8300 10400
+Wire Notes Line
+	10300 10200 11300 10200
+Wire Notes Line
+	10300 10700 10300 10200
+Text Notes 6750 10350 0    60   ~ 0
+Title
+Text Notes 6750 10550 0    60   ~ 0
+Size:
+Text Notes 7450 10550 0    60   ~ 0
+Number:
+Text Notes 6750 10700 0    60   ~ 0
+Date:
+Text Notes 6750 10800 0    60   ~ 0
+File:
+Text Notes 8350 10550 0    60   ~ 0
+Revision:
+Text Notes 8350 10700 0    60   ~ 0
+Sheet
+Text Notes 8690 10700 0    60   ~ 0
+of
+Wire Notes Line
+	9200 10700 9200 10200
+Text Notes 7600 10700 0    60   ~ 0
+Time:
+Text Notes 7000 10560 0    72   ~ 0
+A4
+Wire Notes Line
+	9200 10600 6700 10600
+Wire Notes Line
+	11300 10700 10300 10700
+Text Notes 3200 5900 0    60   ~ 12
+FR-Sky_telemetry
+Text Label 7590 6920 0 70 ~
+478-6878-1-ND
+Text Label 6640 6770 0 70 ~
+15R2105
+Text Label 7470 7030 0 70 ~
+650-PESD0402-140
+$Comp
+L power:GND #PWR?67D44FB5
+U 1 1 67D44FB5
+P 7700 7300
+F 0 "GND_48" H 7700 7300 20  0000 C CNN
+F 1 "GND" H 7700 7230 30  0000 C CNN
+F 2 "" H 7700 7300 70  0000 C CNN
+F 3 "" H 7700 7300 70  0000 C CNN
+	1    7700 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?67D44FB4
+U 1 1 67D44FB4
+P 2500 6300
+F 0 "GND_49" H 2500 6300 20  0000 C CNN
+F 1 "GND" H 2500 6230 30  0000 C CNN
+F 2 "" H 2500 6300 70  0000 C CNN
+F 3 "" H 2500 6300 70  0000 C CNN
+	1    2500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?67D44FB3
+U 1 1 67D44FB3
+P 3300 6200
+F 0 "GND_50" H 3300 6200 20  0000 C CNN
+F 1 "GND" H 3300 6130 30  0000 C CNN
+F 2 "" H 3300 6200 70  0000 C CNN
+F 3 "" H 3300 6200 70  0000 C CNN
+	1    3300 6200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 6800 7700 7300
+Wire Wire Line
+	7400 7200 7700 7200
+Wire Wire Line
+	7400 7000 7400 7200
+Connection ~ 7700 7200
+Wire Wire Line
+	2500 6200 2500 6300
+Wire Wire Line
+	6500 6600 6600 6600
+Wire Wire Line
+	6500 6300 6500 6600
+Wire Wire Line
+	7600 6300 6500 6300
+Text Label 7600 6300 0 48 ~
+VDD_SERVO
+Connection ~ 6500 6300
+Wire Wire Line
+	2500 6100 2200 6100
+Text Label 2200 6100 0 48 ~
+VDD_SERVO
+Wire Wire Line
+	7500 6600 6800 6600
+Wire Wire Line
+	7400 6600 7400 6800
+Connection ~ 7400 6600
+Wire Wire Line
+	8300 6600 7900 6600
+Text Label 8300 6600 0 48 ~
+VDD_SERVO_IN
+Wire Wire Line
+	5100 6400 4600 6400
+Text Label 4600 6900 0 48 ~
+FMU-CH6-PROT
+Wire Wire Line
+	5100 6500 4600 6500
+Text Label 4600 6800 0 48 ~
+FMU-CH5-PROT
+Wire Wire Line
+	5100 6600 4600 6600
+Text Label 4600 6700 0 48 ~
+FMU-CH4-PROT
+Wire Wire Line
+	5100 6700 4600 6700
+Text Label 4600 6600 0 48 ~
+FMU-CH3-PROT
+Wire Wire Line
+	5100 6800 4600 6800
+Text Label 4600 6500 0 48 ~
+FMU-CH2-PROT
+Wire Wire Line
+	5100 6900 4600 6900
+Text Label 4600 6400 0 48 ~
+FMU-CH1-PROT
+Wire Wire Line
+	2500 6000 2200 6000
+Text Label 2200 6000 0 48 ~
+S.BUS_OUT
+Wire Wire Line
+	5100 7700 4600 7700
+Text Label 4600 7700 0 48 ~
+IO-CH8-PROT
+Wire Wire Line
+	5100 7600 4600 7600
+Text Label 4600 7600 0 48 ~
+IO-CH7-PROT
+Wire Wire Line
+	5100 7500 4600 7500
+Text Label 4600 7500 0 48 ~
+IO-CH6-PROT
+Wire Wire Line
+	5100 7300 4600 7300
+Text Label 4600 7300 0 48 ~
+IO-CH4-PROT
+Wire Wire Line
+	5100 7400 4600 7400
+Text Label 4600 7400 0 48 ~
+IO-CH5-PROT
+Wire Wire Line
+	5100 7200 4600 7200
+Text Label 4600 7200 0 48 ~
+IO-CH3-PROT
+Wire Wire Line
+	5100 7100 4600 7100
+Text Label 4600 7100 0 48 ~
+IO-CH2-PROT
+Wire Wire Line
+	5100 7000 4600 7000
+Text Label 4600 7000 0 48 ~
+IO-CH1-PROT
+Text Label 3300 6000 0 48 ~
+SERIAL5_TX
+Text Label 3300 6100 0 48 ~
+SERIAL5_RX
+Text Label 4600 7800 0 48 ~
+PPM-SBUS-PROT
+Wire Wire Line
+	4600 7800 5100 7800
+Text Label 4600 8200 0 48 ~
+RX_5V0_OUT
+Text Label 4600 8100 0 48 ~
+VDD_SERVO
+$Comp
+L power:GND #PWR?67D44FB2
+U 1 1 67D44FB2
+P 5100 8000
+F 0 "GND_51" H 5100 8000 20  0000 C CNN
+F 1 "GND" H 5100 7930 30  0000 C CNN
+F 2 "" H 5100 8000 70  0000 C CNN
+F 3 "" H 5100 8000 70  0000 C CNN
+	1    5100 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 8100 5100 8100
+Wire Wire Line
+	4600 8200 5100 8200
+Text Label 2800 6500 0 70 ~
+79P3920
+$Comp
+L KNH16C104DA5TS L300
+U 1 1 67D44FB1
+P 7700 6600
+F 0 "L300" H 7510 6790 60  0000 L BNN
+F 1 "Kyocera KNH16C104DA5TS EMI filter" H 7510 6690 60  0000 L BNN
+F 2 "" H 7510 6690 60  0000 C CNN
+F 3 "" H 7510 6690 60  0000 C CNN
+F 4 "478-6878-1-ND" V 1400 2000 60  0001 C CNN "Supplier Part Number 1"
+	1    7700 6600
+	1    0    0    -1
+$EndComp
+$Comp
+L DIODE-SCHOTTKY_MSMP D300
+U 1 1 67D44FB0
+P 6700 6600
+F 0 "D300" H 6600 6470 60  0000 L TNN
+F 4 "15R2105" V 1400 2000 60  0001 C CNN "Supplier Part Number 1"
+	1    6700 6600
+	1   0    0    1
+$EndComp
+$Comp
+L DIODE-TVS D301
+U 1 1 67D44FAF
+P 7400 6900
+F 0 "D301" V 7335 6820 60  0000 R TNN
+F 1 "DIODE-TVS" V 7545 6820 60  0000 R TNN
+F 2 "" H 7545 6820 60  0000 C CNN
+F 3 "" H 7545 6820 60  0000 C CNN
+F 4 "650-PESD0402-140" V 1400 2000 60  0001 C CNN "Supplier Part Number 1"
+	1    7400 6900
+	0    -1   -1   0
+$EndComp
+$Comp
+L PH_2_Servo_header P304
+U 1 1 67D44FAE
+P 5400 7600
+F 0 "P304" H 5350 8830 60  0000 L BNN
+F 1 "PH_2 Servo header" H 5350 6870 60  0000 L BNN
+F 2 "" H 5350 6870 60  0000 C CNN
+F 3 "" H 5350 6870 60  0000 C CNN
+	1    5400 7600
+	1    0    0    -1
+$EndComp
+$Comp
+L con_2x6 P301
+U 1 1 67D44FAD
+P 2900 6100
+F 0 "P301" H 2800 6300 60  0000 L BNN
+F 1 "con 2x6" H 2800 5800 60  0000 L BNN
+F 2 "" H 2800 5800 60  0000 C CNN
+F 3 "" H 2800 5800 60  0000 C CNN
+F 4 "79P3920" V 1400 2000 60  0001 C CNN "Supplier Part Number 1"
+	1    2900 6100
+	1    0    0    -1
+$EndComp
+$EndSCHEMATC

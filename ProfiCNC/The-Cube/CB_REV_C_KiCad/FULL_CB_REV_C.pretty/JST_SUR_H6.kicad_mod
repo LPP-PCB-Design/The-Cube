@@ -1,0 +1,8 @@
+(module "JST_SUR_H6" (layer F.Cu) (tedit 5B0D3C36)
+  (fp_line (start -3.60000 0.40000) (end -3.60000 -2.00000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 3.60000 0.40000) (end 3.60000 -2.00000) (layer F.SilkS) (width 0.1))
+  (fp_line (start 2.40000 -2.00000) (end 3.60000 -2.00000) (layer F.SilkS) (width 0.1))
+  (fp_line (start -3.60000 -2.00000) (end -2.40000 -2.00000) (layer F.SilkS) (width 0.1))
+  (fp_line (start -2.40000 -1.20000) (end 2.40000 -1.20000) (layer F.SilkS) (width 0.1))
+  (fp_line (start -3.60000 0.40000) (end 3.60000 0.40000) (layer F.SilkS) (width 0.1))
+)

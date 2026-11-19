@@ -1,0 +1,10 @@
+Licence for use of the Patented Cube footprint. 
+before using the Cube Footprint in your personal or commercial PCB design, you must ask for a licence to use this.
+the footprint includes the 80 pin connector Male connector, and the 4x screw positions or simple variations of this.
+the use of the screw positions and 80 pin female connector on the CUBE is NOT covered by this license. you MUST contact ProfiCNC directly for use on the Cube side.
+
+
+ADDING YOUR NAME HERE AND SUBMITTING THE PULL REQUEST IS THE ONLY THING YOU MUST DO.  By ProfiCNC accepting this into the repository, your licence is granted.
+Please add a new line after the previous one on this page....
+
+https://github.com/proficnc/The-Cube/blob/master/CB_REV_C_Altium/Carrier%20board%20footprint%20approval

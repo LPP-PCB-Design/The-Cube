@@ -1,0 +1,79 @@
+Archive:  db/45003.zip
+  inflating: db/45003/FULL_CB_REV_C.PcbDoc  
+Loading FULL_CB_REV_C.PcbDoc
+
+Done.
+Handling FULL_CB_REV_C-PcbDoc/Root Entry/Board6/Data.dat
+ASCII-FULL_CB_REV_C-PcbDoc.PcbDoc exists?
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Board6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Models/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/UniqueIDPrimitiveInformation/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Rules6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Classes6/Data.dat.txt
+Writing PCB to FULL_CB_REV_C-PcbDoc.kicad_pcb
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Nets6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Components6/Data.dat.txt
+Pads6...
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Seems we should skip 0x1e0 bytes
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/ComponentBodies6/Data.dat.txt
+NOT FOUND: DF40C(2.0)-70DS.wrl
+NOT FOUND: power.wrl
+NOT FOUND: res_0402.wrl
+NOT FOUND: KYOCERA-KNH16-DA.wrl
+NOT FOUND: cap_0603.wrl
+NOT FOUND: cap_0805.wrl
+NOT FOUND: 0603-LED-Blue.wrl
+NOT FOUND: 473460001.wrl
+NOT FOUND: EVQP7-JA-01P.wrl
+NOT FOUND: User Library-XFL4020.wrl
+NOT FOUND: SM06B-SURS-TF.wrl
+NOT FOUND: Samtec-TSW-103-07-G-D.wrl
+NOT FOUND: Samtec-TSW-115-08-G-T-RA.wrl
+NOT FOUND: DF17(1_0H)-80DP-0_5V.wrl
+NOT FOUND: 5024430670.wrl
+NOT FOUND: BM08B-GHS-TBT.wrl
+NOT FOUND: BM06B-GHS-TBT.wrl
+NOT FOUND: BM03B-GHS-TBT.wrl
+NOT FOUND: BM04B-GHS-TBT.wrl
+NOT FOUND: cap_0402.wrl
+NOT FOUND: SMTSO-M1.6-2ET.wrl
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/ShapeBasedComponentBodies6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Components6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Arcs6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Vias6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Polygons6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Tracks6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/FileVersionInfo/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Fills6/Data.dat.txt
+Writing to FULL_CB_REV_C-PcbDoc/Root Entry/Regions6/Data.dat.txt
+Overflow: verts:24375 ver:55 vpos:884 length:884 !
+Overflow: verts:2494 ver:190 vpos:3044 length:3044 !
+Texts6...
+Unmapped Layers:
+"MECHANICAL16"=>"Eco1.User"
+Handling FULL_CB_REV_C-PcbDoc/Root Entry/FileHeader.dat

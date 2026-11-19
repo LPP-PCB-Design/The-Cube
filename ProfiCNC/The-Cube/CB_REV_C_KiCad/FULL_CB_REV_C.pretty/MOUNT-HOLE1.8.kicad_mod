@@ -1,0 +1,5 @@
+(module "MOUNT-HOLE1.8" (layer F.Cu) (tedit 5B0D3C36)
+  (arc (start 1.11760 0.00000) (end 1.11760 -0.00000) (mid -1.11760 0.00000) (layer B.SilkS) (width 0.127) )
+  (arc (start 1.11760 0.00000) (end 1.11760 -0.00000) (mid -1.11760 0.00000) (layer B.SilkS) (width 0.127) )
+  (arc (start 1.11760 0.00000) (end 1.11760 -0.00000) (mid -1.11760 0.00000) (layer F.SilkS) (width 0.127) )
+)

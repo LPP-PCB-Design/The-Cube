@@ -1,0 +1,460 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr B 17000 11000
+encoding utf-8
+Sheet 1 1
+Title "FULL_CB_80_Pin_REV_C-SchDoc"
+Date "14 03 2025"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Notes Line
+	5400 10800 5400 9800
+Wire Notes Line
+	5400 10800 11300 10800
+Wire Notes Line
+	5400 9800 11300 9800
+Wire Notes Line
+	11300 10800 11300 9800
+Text Notes 5400 10000 0    108   ~ 0
+Title:
+Text Notes 5800 10000 0    108   ~ 0
+*
+Text Notes 5400 10200 0    108   ~ 0
+Date:
+Text Notes 5800 10200 0    108   ~ 0
+*
+Text Notes 7200 10200 0    108   ~ 0
+Time:
+Text Notes 7700 10200 0    108   ~ 0
+*
+Text Notes 5400 10400 0    108   ~ 0
+Sheet:
+Text Notes 5800 10400 0    108   ~ 0
+*
+Text Notes 6200 10400 0    108   ~ 0
+of:
+Text Notes 6600 10400 0    108   ~ 0
+*
+Text Notes 7200 10400 0    108   ~ 0
+Drawn By:
+Text Notes 5400 10800 0    108   ~ 0
+Title:
+Text Notes 9300 10600 0    144   ~ 0
+ProfiCNC
+Text Notes 5800 10800 0    108   ~ 0
+*
+Text Notes 8100 10400 0    108   ~ 0
+Philip Rowse
+Text Notes 5400 10600 0    108   ~ 0
+Approved:
+Text Notes 6200 10600 0    108   ~ 0
+*
+Text Notes 7200 10600 0    108   ~ 0
+Checked By:
+Text Notes 8200 10600 0    108   ~ 0
+*
+Wire Wire Line
+	11300 10400 7200 10400
+Wire Wire Line
+	7200 10400 5400 10400
+Wire Wire Line
+	9200 10200 7200 10200
+Wire Wire Line
+	7200 10000 5400 10000
+Wire Wire Line
+	9200 10000 7200 10000
+Wire Wire Line
+	7200 10200 5400 10200
+Wire Wire Line
+	9200 10600 7200 10600
+Wire Wire Line
+	11300 10600 9200 10600
+Wire Wire Line
+	7200 10600 5400 10600
+Wire Wire Line
+	7200 10400 7200 10600
+Wire Wire Line
+	7200 10200 7200 10400
+Wire Wire Line
+	7200 10000 7200 10200
+Wire Wire Line
+	9200 10200 9200 10600
+Wire Wire Line
+	9200 10000 9200 10200
+Wire Wire Line
+	9200 9800 9200 10000
+Text Notes 400 10700 0    60   ~ 0
+https://creativecommons.org/publicdomain/zero/1.0/
+Text Label 1470 9530 0 70 ~
+DF17(1.0H)-80DP-0.5V(57)-ND
+$Comp
+L power:GND #PWR?67D45049
+U 1 1 67D45049
+P 1100 7000
+F 0 "GND" H 1100 7000 20  0000 C CNN
+F 1 "GND" H 1100 6930 30  0000 C CNN
+F 2 "" H 1100 7000 70  0000 C CNN
+F 3 "" H 1100 7000 70  0000 C CNN
+	1    1100 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?67D45048
+U 1 1 67D45048
+P 1200 4500
+F 0 "GND_2" H 1200 4500 20  0000 C CNN
+F 1 "GND" H 1200 4430 30  0000 C CNN
+F 2 "" H 1200 4500 70  0000 C CNN
+F 3 "" H 1200 4500 70  0000 C CNN
+	1    1200 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?67D45047
+U 1 1 67D45047
+P 9800 4300
+F 0 "GND_3" H 9800 4300 20  0000 C CNN
+F 1 "GND" H 9800 4230 30  0000 C CNN
+F 2 "" H 9800 4300 70  0000 C CNN
+F 3 "" H 9800 4300 70  0000 C CNN
+	1    9800 4300
+	1    0    0    -1  
+$EndComp
+Text Label 3600 6000 0 48 ~
+I2C_2_SCL
+Text Label 3600 5800 0 48 ~
+I2C_2_SDA
+Wire Wire Line
+	2400 9200 1300 9200
+Text Label 1300 9200 0 48 ~
+I2C_1_SCL
+Wire Wire Line
+	2400 9000 1300 9000
+Text Label 1300 9000 0 48 ~
+I2C_1_SDA
+Text Label 8000 5800 0 48 ~
+SERIAL1_CTS
+Text Label 8000 5600 0 48 ~
+SERIAL1_RTS
+Text Label 3600 9000 0 48 ~
+SERIAL2_TX
+Text Label 3600 8600 0 48 ~
+SERIAL2_CTS
+Text Label 3600 8400 0 48 ~
+SERIAL2_RTS
+Text Label 3600 9400 0 48 ~
+SERIAL1_TX
+Text Label 3600 9200 0 48 ~
+SERIAL1_RX
+Text Label 3600 8800 0 48 ~
+SERIAL2_RX
+Text Label 3600 6800 0 48 ~
+SERIAL5_TX
+Text Label 3600 6600 0 48 ~
+SERIAL5_RX
+Wire Wire Line
+	6500 9400 5400 9400
+Text Label 5400 9400 0 48 ~
+CAN_H_1
+Wire Wire Line
+	6500 9200 5400 9200
+Text Label 5400 9200 0 48 ~
+CAN_L_1
+Text Label 8000 7400 0 48 ~
+FMU-CH6-PROT
+Text Label 8000 7200 0 48 ~
+FMU-CH5-PROT
+Text Label 8000 7000 0 48 ~
+FMU-CH4-PROT
+Text Label 8000 6800 0 48 ~
+FMU-CH3-PROT
+Text Label 8000 6600 0 48 ~
+FMU-CH2-PROT
+Text Label 8000 6400 0 48 ~
+FMU-CH1-PROT
+Text Label 8000 7600 0 48 ~
+PPM-SBUS-PROT
+Text Label 8000 7800 0 48 ~
+S.BUS_OUT
+Wire Wire Line
+	6500 6200 5400 6200
+Text Label 5400 6200 0 48 ~
+BATT_VOLTAGE_SENS_PROT
+Wire Wire Line
+	6500 6400 5400 6400
+Text Label 5400 6400 0 48 ~
+BATT_CURRENT_SENS_PROT
+Wire Wire Line
+	2400 5600 1300 5600
+Text Label 1300 5600 0 48 ~
+FMU-SWDIO
+Wire Wire Line
+	2400 5800 1300 5800
+Text Label 1300 5800 0 48 ~
+FMU-SWCLK
+Wire Wire Line
+	6500 7000 5400 7000
+Text Label 5400 7000 0 48 ~
+~VDD_BRICK_VALID~
+Wire Wire Line
+	6500 7200 5400 7200
+Text Label 5400 7200 0 48 ~
+~VDD_BACKUP_VALID~
+Wire Wire Line
+	6500 7400 5400 7400
+Text Label 5400 7400 0 48 ~
+~VBUS_VALID~
+Wire Wire Line
+	6500 5600 5400 5600
+Text Label 5400 5600 0 48 ~
+CAN_H_2
+Wire Wire Line
+	2400 9400 1300 9400
+Text Label 1300 9400 0 48 ~
+CAN_L_2
+Wire Wire Line
+	6500 6000 5400 6000
+Text Label 5400 6000 0 48 ~
+~VDD_5V_HIPOWER_OC~
+Wire Wire Line
+	6500 5800 5400 5800
+Text Label 5400 5800 0 48 ~
+~VDD_5V_PERIPH_OC~
+Wire Wire Line
+	2400 6200 1300 6200
+Text Label 1300 6200 0 48 ~
+FMU-!RESET
+Text Label 8000 6200 0 48 ~
+IO-USART1_RX_SPECTRUM_DSM
+Text Label 8000 6000 0 48 ~
+IO-USART1_TX
+Wire Wire Line
+	6500 9000 5400 9000
+Text Label 5400 9000 0 48 ~
+IO-!RESET
+Wire Wire Line
+	6500 8400 5400 8400
+Text Label 5400 8400 0 48 ~
+IO-SWDIO
+Wire Wire Line
+	6500 8600 5400 8600
+Text Label 5400 8600 0 48 ~
+IO-SWCLK
+Wire Wire Line
+	2400 8400 1300 8400
+Text Label 1300 8400 0 48 ~
+VBUS
+Wire Wire Line
+	2400 8800 1300 8800
+Text Label 1300 8800 0 48 ~
+OTG_DM1
+Wire Wire Line
+	2400 8600 1300 8600
+Text Label 1300 8600 0 48 ~
+OTG_DP1
+Text Label 8000 8000 0 48 ~
+IO-CH8-PROT
+Text Label 8000 8200 0 48 ~
+IO-CH7-PROT
+Text Label 8000 8400 0 48 ~
+IO-CH6-PROT
+Text Label 8000 8800 0 48 ~
+IO-CH4-PROT
+Text Label 8000 8600 0 48 ~
+IO-CH5-PROT
+Text Label 8000 9000 0 48 ~
+IO-CH3-PROT
+Text Label 8000 9200 0 48 ~
+IO-CH2-PROT
+Text Label 8000 9400 0 48 ~
+IO-CH1-PROT
+Text Label 3600 7600 0 48 ~
+SERIAL3_TX
+Text Label 3600 7400 0 48 ~
+SERIAL3_RX
+Text Label 3600 7200 0 48 ~
+SERIAL4_TX
+Text Label 3600 7000 0 48 ~
+SERIAL4_RX
+Text Label 3600 8200 0 48 ~
+~IO-LED_SAFET_PROT~
+Text Label 3600 7800 0 48 ~
+ALARM
+Wire Wire Line
+	2400 8200 1300 8200
+Text Label 1300 8200 0 48 ~
+~VDD_5V_PERIPH_EN~
+Wire Wire Line
+	2400 8000 1300 8000
+Text Label 1300 8000 0 48 ~
+AUX_BATT_CURRENT_SENS
+Wire Wire Line
+	2400 7800 1300 7800
+Text Label 1300 7800 0 48 ~
+AUX_BATT_VOLTAGE_SENS
+Wire Wire Line
+	2400 7600 1300 7600
+Text Label 1300 7600 0 48 ~
+PRESSURE_SENS_IN
+Wire Wire Line
+	2400 7400 1300 7400
+Text Label 1300 7400 0 48 ~
+VDD_3V3_SPEKTRUM_EN
+Wire Wire Line
+	1300 7000 1100 7000
+Wire Wire Line
+	2400 7000 1300 7000
+Wire Wire Line
+	1300 6800 1300 7000
+Wire Wire Line
+	2400 6800 1300 6800
+Connection ~ 1300 7000
+Wire Wire Line
+	1300 4300 1200 4300
+Wire Wire Line
+	1200 4300 1200 4500
+Wire Wire Line
+	2400 6400 1300 6400
+Text Label 1300 6400 0 48 ~
+VDD_SERVO_IN
+Wire Wire Line
+	6500 7800 5400 7800
+Text Label 5400 7800 0 48 ~
+VDD_5V_IN_PROT
+Wire Wire Line
+	6500 7600 5400 7600
+Text Label 5400 7600 0 48 ~
+VDD_5V_IN_PROT
+Wire Wire Line
+	2400 7200 1300 7200
+Text Label 1300 7200 0 48 ~
+SAFETY
+Text Label 3600 6400 0 48 ~
+CAN_H_3
+Text Label 3600 6200 0 48 ~
+CAN_L_3
+Wire Wire Line
+	6500 8800 5400 8800
+Text Label 5400 8800 0 48 ~
+SPI_EXT_SCK
+Wire Wire Line
+	6500 8200 5400 8200
+Text Label 5400 8200 0 48 ~
+SPI_EXT_MISO
+Wire Wire Line
+	6500 6600 5400 6600
+Text Label 5400 6600 0 48 ~
+SPI_EXT_MOSI
+Wire Wire Line
+	2400 6600 1300 6600
+Text Label 1300 6600 0 48 ~
+EXTERN_DRDY
+Wire Wire Line
+	2400 6000 1300 6000
+Text Label 1300 6000 0 48 ~
+~EXTERN_CS~
+Wire Wire Line
+	4300 5600 3600 5600
+Text Label 3600 5600 0 48 ~
+~FMU-LED_AMBER~
+Wire Wire Line
+	6500 6800 5400 6800
+Text Label 5400 6800 0 48 ~
+VDD_SERVO
+Wire Wire Line
+	4300 5800 3600 5800
+Wire Wire Line
+	4300 6000 3600 6000
+Wire Wire Line
+	4300 6200 3600 6200
+Wire Wire Line
+	4300 6400 3600 6400
+Wire Wire Line
+	4300 6600 3600 6600
+Wire Wire Line
+	4300 6800 3600 6800
+Wire Wire Line
+	4300 7000 3600 7000
+Wire Wire Line
+	4300 7200 3600 7200
+Wire Wire Line
+	4300 7400 3600 7400
+Wire Wire Line
+	4300 7600 3600 7600
+Wire Wire Line
+	4300 7800 3600 7800
+Wire Wire Line
+	4300 8200 3600 8200
+Wire Wire Line
+	4300 8400 3600 8400
+Wire Wire Line
+	4300 8600 3600 8600
+Wire Wire Line
+	4300 8800 3600 8800
+Wire Wire Line
+	4300 9000 3600 9000
+Wire Wire Line
+	4300 9200 3600 9200
+Wire Wire Line
+	4300 9400 3600 9400
+Wire Wire Line
+	8700 5600 8000 5600
+Wire Wire Line
+	8700 5800 8000 5800
+Wire Wire Line
+	8700 6000 8000 6000
+Wire Wire Line
+	8700 6200 8000 6200
+Wire Wire Line
+	8700 6400 8000 6400
+Wire Wire Line
+	8700 6600 8000 6600
+Wire Wire Line
+	8700 6800 8000 6800
+Wire Wire Line
+	8700 7000 8000 7000
+Wire Wire Line
+	8700 7200 8000 7200
+Wire Wire Line
+	8700 7400 8000 7400
+Wire Wire Line
+	8700 7600 8000 7600
+Wire Wire Line
+	8700 7800 8000 7800
+Wire Wire Line
+	8700 8000 8000 8000
+Wire Wire Line
+	8700 8200 8000 8200
+Wire Wire Line
+	8700 8400 8000 8400
+Wire Wire Line
+	8700 8600 8000 8600
+Wire Wire Line
+	8700 8800 8000 8800
+Wire Wire Line
+	8700 9000 8000 9000
+Wire Wire Line
+	8700 9200 8000 9200
+Wire Wire Line
+	8700 9400 8000 9400
+Wire Wire Line
+	9700 4300 9800 4300
+$Comp
+L CON-DF17-80M P500
+U 1 1 67D45046
+P 4600 4400
+F 0 "P500" H 7700 4200 60  0000 L BNN
+F 1 "CON-DF17-80M" H 6300 4700 60  0000 L BNN
+F 2 "" H 6300 4700 60  0000 C CNN
+F 3 "" H 6300 4700 60  0000 C CNN
+F 4 "DF17(1.0H)-80DP-0.5V(57)-ND" V 1400 2000 60  0001 C CNN "Supplier Part Number 1"
+	1    4600 4400
+	0    -1   -1   0
+$EndComp
+$EndSCHEMATC
